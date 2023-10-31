@@ -30,25 +30,25 @@ public class C03_NestedIfElseIndirimliUrunSorusu2 {
 
         */
 
-        if (urunAdedi > 10){ // Urun miktari 10'dan fazla olanlar.
-            if (kartVarMi == 'E'){
+        if (urunAdedi > 10) { // Urun miktari 10'dan fazla olanlar.
+            if (kartVarMi == 'E') {
                 indirimOrani = 20;
-            }else if (kartVarMi == 'H') {
+            } else if (kartVarMi == 'H') {
                 indirimOrani = 15;
-            }else {
+            } else {
                 System.out.println("kart bilgisi hatali");
             }
 
         } else if (urunAdedi > 0) { // Urun miktari 1 ile 10 sinirlar dahil arasında olanlar.
-            if (kartVarMi == 'E'){
+            if (kartVarMi == 'E') {
                 indirimOrani = 15;
-            }else if (kartVarMi == 'H'){
+            } else if (kartVarMi == 'H') {
                 indirimOrani = 10;
-            }else{
+            } else {
                 System.out.println("kart bilgisi hatali");
             }
 
-        }else {// urun miktarı 0 veya negatif olanlar.
+        } else {// urun miktarı 0 veya negatif olanlar.
             System.out.println("Urun Miktari Hatali");
         }
 
@@ -56,5 +56,6 @@ public class C03_NestedIfElseIndirimliUrunSorusu2 {
             System.out.println(indirimOrani + " indirimli toplam fiyat : " +
                     indirimsizFiyat * urunAdedi * (100 - indirimOrani) / 100);
 
+        }
     }
 }

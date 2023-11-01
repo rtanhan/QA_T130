@@ -11,6 +11,6 @@ public class C09_TernarySoru3 {
         int sayi1 = scan.nextInt();
         int sayi2 = scan.nextInt();
 
-        System.out.println(sayi1 > sayi2 ? " " + sayi2 : sayi1);
+        System.out.println(sayi1 > sayi2 ?  sayi2 : sayi1);
     }
 }

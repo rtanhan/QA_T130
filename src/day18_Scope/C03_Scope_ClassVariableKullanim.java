@@ -1,6 +1,6 @@
 package day18_Scope;
 
-public class C02_Scope_ClassVariableKullanim {
+public class C03_Scope_ClassVariableKullanim {
 
     /*
         Kural 4 -   static variable'lar her yere gidebilirler. ( tum methodlardan cagrilabilirler)
@@ -32,19 +32,21 @@ public class C02_Scope_ClassVariableKullanim {
         // once class'dan bir obje olusturmali
         // sonra o obje uzerinden static olmayan ueyeler kullanilmalidir.
 
-        C02_Scope_ClassVariableKullanim obj = new C02_Scope_ClassVariableKullanim();
+        C03_Scope_ClassVariableKullanim obj = new C03_Scope_ClassVariableKullanim();
         System.out.println(obj.bl); // false default deger
         System.out.println(obj.chr); // "" default deger hiclik
 
     }
 
     public static void method1() {
+        System.out.println("static method calisti");
 
     }
 
 
     public void method2() {
         System.out.println(chr); // ""
+        System.out.println("static olmayan method calisti");
 
     }
 

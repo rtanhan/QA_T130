@@ -1,6 +1,6 @@
 package day18_Scope;
 
-public class C01_Scope {
+public class C01_ScopeLocalVariable {
     public static void main(String[] args) {
 
         // Kural 1 -  Bir merhod icerisinde olusturulan variable'lara
@@ -21,7 +21,7 @@ public class C01_Scope {
         // a++ deger atanmamis bir variable'a artirma yaplamaz.
 
         bl = true;
-        c= 'a';
+        c = 'a';
 
         // Kural 2 - Local variable'lar deger atanmadan olusturulabilir
         //           AMMA deger atanmadan kulanilamazlar.
@@ -31,16 +31,16 @@ public class C01_Scope {
             String s = "Java";
         }
 
-        System.out.println(i); // Cannot resolve symbol 'i'
-        System.out.println(s); // Cannot resolve symbol 's'
+        // System.out.println(i); // Cannot resolve symbol 'i'
+        // System.out.println(s); // Cannot resolve symbol 's'
 
         // Kural 3 - Her ne kadar bir method'un icinde olsa da
         //           Loop'larda ayri bir local alandir.
         //           Loop icerisinde olusturulan variable'lar
-        //           Loop disinda kullanilamaz. 
+        //           Loop disinda kullanilamaz.
     }
 
-    public static void method1(){
+    public static void method1() {
         // System.out.println(str);
 
         int sayi = 10;

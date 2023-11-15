@@ -35,6 +35,10 @@ public class C02_Scope_ClassVariables_staticKeywords {
         // bl = false;
         // chr = 'b';
 
+        C02_Scope_ClassVariables_staticKeywords obj1 = new C02_Scope_ClassVariables_staticKeywords();
+        obj1.staticOlmayanMethod();
+
+
     }
 
     public static void staticMethod1() {

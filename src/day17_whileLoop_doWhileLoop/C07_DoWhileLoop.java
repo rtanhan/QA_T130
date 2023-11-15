@@ -31,7 +31,7 @@ public class C07_DoWhileLoop {
          */
 
         Scanner scan = new Scanner(System.in);
-        double not =-5;
+        double not = -5;
         double toplam = 0;
         int sayac = 0;
 
@@ -51,11 +51,13 @@ public class C07_DoWhileLoop {
 
         */
 
+
         do {
 
             System.out.println("Ortalam hesaplamak icin notlari giriniz " +
                     "\bitirmek icin negatis sayi girmelisiniz.");
             not = scan.nextDouble();
+
 
             if (not >= 0) {
                 toplam = toplam + not;

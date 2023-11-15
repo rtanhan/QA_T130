@@ -1,6 +1,10 @@
 package day18_Scope;
 
 public class C01_ScopeLocalVariable {
+
+    static int sayi2 = 10;
+    int sayi3 = 11;
+
     public static void main(String[] args) {
 
         // Kural 1 -  Bir merhod icerisinde olusturulan variable'lara

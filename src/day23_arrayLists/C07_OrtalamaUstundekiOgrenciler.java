@@ -47,7 +47,7 @@ public class C07_OrtalamaUstundekiOgrenciler {
 
         for (int i = 0; i < notlar.size(); i++) {
 
-            if (notlar.get(i) > ortalama){;
+            if (notlar.get(i) >= ortalama){;
                 System.out.println("Ortalamnin üzerinde not alan öğrenci ismi : "+ isimler.get(i)+
                         " Öğrenci notu : "+ notlar.get(i));
 
